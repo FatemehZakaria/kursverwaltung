@@ -51,7 +51,7 @@ function KursLernenderErstellen() {
 
     if (result.success) {
       // Return to the list
-      navigate('/kurs-lernende');
+      navigate('/kurse-lernende');
     }
   };
 
