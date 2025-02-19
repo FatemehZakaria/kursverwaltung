@@ -1,0 +1,27 @@
+header {
+    padding: var(--default-gap) 0;
+
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items: center;
+}
+header > a > img {
+    width: 50px;
+    height: 50px;
+}
+
+header > nav {
+    display: flex;
+    gap: var(--default-gap);
+
+    justify-content: end;
+    align-items: center;
+}
+header > nav > a {
+    font-size: var(--font-size-big);
+
+    color: var(--text);
+}
+header > nav > a:hover {
+    color: var(--text);
+}

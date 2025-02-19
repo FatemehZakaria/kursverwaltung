@@ -1,0 +1,10 @@
+footer {
+    padding: var(--default-gap) 0;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+footer > p {
+    font-size: var(--font-size-smaller);
+}

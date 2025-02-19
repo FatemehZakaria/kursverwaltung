@@ -1,0 +1,9 @@
+p.street, div.address > span, a, button.link > span {
+    font-size: var(--font-size-small);
+}
+div.actions {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    align-items: center;
+    gap: calc(.5 * var(--default-gap));
+}
